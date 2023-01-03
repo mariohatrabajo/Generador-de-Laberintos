@@ -1,4 +1,4 @@
-# Generador-de-Laberintos
+# Generador de Laberintos
 Se trata de un programa que genera un laberinto de forma procedural y permite jugarlo.
 
 Para empezar, el usuario indica el tamaño, así como la verticalidad y horizontalidad que se definen como la tendencia de los caminos del laberinto a ir en vertical u horizontal.
