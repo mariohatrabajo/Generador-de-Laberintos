@@ -1,0 +1,17 @@
+Mario Hidalgo Arispón
+
+Se tratará de un programa que generará un laberinto aleatorio de forma procedural.
+El usuario le indicará el tamaño, así como si desea verlo paso a paso, automático o ver el laberinto ya terminado.
+
+Paso a paso: el programa esperará a que el usuario pulse una tecla después de cada paso.
+Automático: el programa irá dibujando cada paso cada cierto tiempo.
+			El laberinto se generá más rápido mientras más grande sea, de tal forma que sea del tamaño que sea se
+			generará más o menos en el mismo tiempo(unos 20s).
+Ya terminado: el programa no mostrará el proceso de creación del laberinto, mostrará el laberinto ya terminado.
+
+El programa dará la opción al jugador de guardar el laberinto en un fichero de texto.
+
+La clase Arquitecto es la encargada de construir el laberinto, que está formado por distintas celdas que guardarán 
+la información de los muros Norte, Este, Sur y Oeste, que pueden estar o no estar. Ésto último lo decidirá el Arquitecto
+para así ir formando los caminos.
+
